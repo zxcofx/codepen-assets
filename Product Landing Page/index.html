@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <p>Apple</p>
+            <img id="header-img" src="https://zxcofx.github.io/responsive-web-projects-freecodecamp/Product Landing Page/src/epel.png" alt="">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-link" href="#home"><a href="#home">Home</a></li>
+                <li class="nav-link" href="#why"><a href="#why">Why</a></li>
+                <li class="nav-link" href="#about"><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container">
+            <div class="imagee">
+                <img src="https://zxcofx.github.io/responsive-web-projects-freecodecamp/Product Landing Page/src/watch.png" alt="watch" class="justimg" id="home-img">
+            </div>
+            <div class="desc">
+                <h2>The next era of smart watch</h2>
+                <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a unde, nulla corporis exercitationem enim quaerat dolore! Accusantium eligendi, corporis error recusandae necessitatibus magnam pariatur qui temporibus fuga quia nulla!</p>
+                <div class="buttonfix">
+                    <button class="button">Buy it now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="why">
+        <div class="container container2">
+            <div class="desc">
+                <h2>Made by amazing hands</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur maxime sit pariatur cum aut similique fugiat, esse, recusandae minima at sed! Nihil facere explicabo quia, magni inventore culpa aliquid autem!</p>
+                <div class="buttonfix">
+                    <button class="button2">Buy it now</button>
+                </div>
+            </div>
+            <div class="imagee">
+                <img src="https://zxcofx.github.io/responsive-web-projects-freecodecamp/Product Landing Page/src/watch2.png" alt="" class="justimg" id="why-img">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container container4">
+            <div class="desc">
+                <h2>About</h2>
+            </div>
+            <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/LLHpq_WSvhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container3">
+            <h2 style="text-align: center; font-size: 40px; margin: 10px auto;">Contact</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div class="form-group">
+                    <label class="label" id="name-label">Name</label>
+                    <div class="spacer"></div>
+                    <input class="input" type="text" id="name"placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label class="label" id="email-label">Email</label>
+                    <div class="spacer"></div>
+                    <input class="input" type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label class="label" id="email-label">Message</label>
+                    <div class="spacer"></div>
+                    <textarea class="input" col="0" rows="6" id="email" placeholder="Enter your message"></textarea>
+                </div>
+                <label for=submit></label>
+                <input id="submit" type="submit" value="Submit"class="button3"></input>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <p>this is footer lol.. i guess</p>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
